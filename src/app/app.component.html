@@ -15,7 +15,7 @@
        </g>
        </svg>
     </div>
-    <div class="hamburger">
+    <div class="hamburger"> 
         <div (click)="menuTrigger()" [class.open]="menuActive" class="hamburger-menu">
             <div class="hambar half start"></div>
             <div class="hambar"></div>
@@ -26,9 +26,10 @@
 
 
 <div [class.is-active]="menuActive" class="menu-fold">
+
     <div class="menu">
         <nav>
-            <a (click)="menuTrigger()" class="menu-item" routerLinkActive="active-link" routerLink="">Home</a>
+            <a (click)="menuTrigger()" class="menu-item" [routerLinkActiveOptions]="{ exact: true }" routerLinkActive="active-link" routerLink="">Home</a>
             <a (click)="menuTrigger()" class="menu-item" routerLinkActive="active-link" routerLink="/work">Work</a>
             <a (click)="menuTrigger()" class="menu-item" routerLinkActive="active-link" routerLink="/about">About</a>
         </nav>
