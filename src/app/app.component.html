@@ -36,5 +36,6 @@
     </div>
 </div>
 
-
-<router-outlet></router-outlet>
+<div class="main" [@animRoutes]="getPage(appOutlet)">
+    <router-outlet #appOutlet="outlet"></router-outlet>
+  </div>

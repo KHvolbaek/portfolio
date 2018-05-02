@@ -4,9 +4,9 @@ import { AboutComponent } from './about/about.component';
 import { WorkComponent } from './work/work.component';
 import { HomeComponent } from './home/home.component';
 const routes: Routes = [
-    {path: '', component: HomeComponent},
-    {path: 'about', component: AboutComponent},
-    {path: 'work', component: WorkComponent}
+    {path: '', component: HomeComponent, data: {page: 'one'}},
+    {path: 'about', component: AboutComponent, data: {page: 'two'}},
+    {path: 'work', component: WorkComponent, data: {page: 'three'}}
 
 ];
 

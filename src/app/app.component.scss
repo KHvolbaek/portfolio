@@ -144,3 +144,26 @@ img{
     
 }
 
+///routeer
+
+.routeContainer {
+    position: relative;
+    width: 35vw;
+    height: 35vh;
+    margin: 0 auto;
+  }
+
+  .routeContainer> .ng-star-inserted {
+    width: 100%;
+    height: 100%;
+    background: #5942f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Bangers;
+    font-size: 2rem;
+    margin: 3rem auto;
+  
+    position: absolute;
+  }
