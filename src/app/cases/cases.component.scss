@@ -1,0 +1,26 @@
+.casesWrapper{
+    display: flex; 
+    flex-wrap: wrap;
+    padding: 0 4px; 
+
+    .case{
+        flex: 25%;
+        max-width: 25%;
+        padding: 4px; 
+        text-align: center; 
+        position: relative;
+        .case-content{
+            background: #efb235;
+            height: 100%; 
+            width: 100%; 
+            h2{
+                text-transform: uppercase;
+                top: 50%; 
+                position: absolute;
+                transform: translate(-50%, -50%);
+                left: 50%;
+                
+            }
+        }
+    } 
+}  

@@ -6,6 +6,7 @@ import { AppRoutingModule, RoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CasesComponent } from './cases/cases.component';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppComponent,
     RoutingModule,
     HomeComponent,
+    CasesComponent,
   ],
   imports: [
     BrowserModule,
